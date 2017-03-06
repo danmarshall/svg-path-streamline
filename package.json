@@ -1,16 +1,16 @@
 {
-  "name": "svg-path-outline",
-  "version": "1.0.1",
-  "description": "Create an outline surrounding an SVG path",
+  "name": "svg-path-streamline",
+  "version": "1.0.0",
+  "description": "Round the sharp corners from an SVG path",
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "browserify": "browserify -r ./index.js:svg-path-outline -x makerjs -o ./browser/index.js",
+    "browserify": "browserify -r ./index.js:svg-path-streamline -x makerjs -o ./browser/index.js",
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danmarshall/svg-path-outline.git"
+    "url": "git+https://github.com/danmarshall/svg-path-streamline.git"
   },
   "keywords": [
     "svg",
@@ -20,11 +20,11 @@
   "author": "Dan Marshall",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/danmarshall/svg-path-outline/issues"
+    "url": "https://github.com/danmarshall/svg-path-streamline/issues"
   },
-  "homepage": "https://github.com/danmarshall/svg-path-outline#readme",
+  "homepage": "https://github.com/danmarshall/svg-path-streamline#readme",
   "dependencies": {
-    "makerjs": "^0.9.39"
+    "makerjs": "*"
   },
   "devDependencies": {
     "browserify": "^14.1.0"
